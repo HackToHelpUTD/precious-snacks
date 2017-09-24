@@ -18,6 +18,17 @@ body {
     height: 40px; 
     width: 100%; 
     text-align: left; 
+    font: raleyway; /*waiting for pull update*/
     padding: 0; 
     margin: 0; 
+}
+
+#whoAreWe {
+    height: 40%; 
+    width: 40%; 
+}
+
+#Purpose {
+    height: 40%; 
+    width: 40%; 
 }
