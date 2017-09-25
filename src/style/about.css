@@ -1,34 +1,32 @@
-
-
 html,
 body {
-    height: 100%;
-    width: 100%;
-    margin: 0; 
-    padding: 0; 
+  height: 100%;
+  width: 100%;
+  margin: 0; 
+  padding: 0; 
 }
 
 body {
-    background: #ffff;
-    text-align: center; 
+  background: #ffff;
+  text-align: center; 
 }
 
 #topbar h6 {
-    background: #F44336;
-    height: 40px; 
-    width: 100%; 
-    text-align: left; 
-    font: raleyway; /*waiting for pull update*/
-    padding: 0; 
-    margin: 0; 
+  background: #F44336;
+  height: 40px; 
+  width: 100%; 
+  text-align: left; 
+  font: raleyway; /*waiting for pull update*/
+  padding: 0; 
+  margin: 0; 
 }
 
 #whoAreWe {
-    height: 40%; 
-    width: 40%; 
+  height: 40%; 
+  width: 40%; 
 }
 
 #Purpose {
-    height: 40%; 
-    width: 40%; 
+  height: 40%; 
+  width: 40%; 
 }
