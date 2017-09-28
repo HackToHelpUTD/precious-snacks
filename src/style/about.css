@@ -1,50 +1,48 @@
-
-
 html,
 body {
-    height: 100%;
-    width: 100%;
-    margin: 0; 
-    padding: 0; 
-    font-family: 'Raleway', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
-    background: #ffff;
-    text-align: center; 
+  background: #ffff;
+  text-align: center; 
 }
 
 #topbar h6 {
-    background: #F44336;
-    height: 40px; 
-    width: 100%; 
-    text-align: left; 
-    padding: 0; 
-    margin: 0; 
+  background: #F44336;
+  height: 40px; 
+  width: 100%; 
+  text-align: left; 
+  padding: 0; 
+  margin: 0; 
 }
 
 .flex {
-    display: flex; 
+  display: flex; 
 }
 
 #missionState h2 {
-    font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', cursive;
 }
 
 #whoAreWe {
-    width: 40%; 
-    padding-bottom: 2%; 
+  width: 40%; 
+  padding-bottom: 2%; 
 }
 
 #whoAreWe h3 {
-    font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', cursive;
 }
 
 #Purpose {
-    width: 40%; 
-    padding-left: 60%; 
+  width: 40%; 
+  padding-left: 60%; 
 }
 
 #Purpose h3 {
-    font-family: 'Satisfy', cursive; 
+  font-family: 'Satisfy', cursive; 
 }
