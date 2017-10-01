@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <!--META TAGS-->
     <meta charset="UTF-8">
     <meta name="description" content="A social entrepreneuring venture that teaches skills the less fortunate can use to run their own businesses.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="ITWD">
-    
     <title>Precious Snacks | Home</title>
-    <!-- Custom CSS -->
+    <!--CSS-->
     <link rel="stylesheet" href="src/style/style.css">
+    <!--navbar JS-->
+    <script src="src\js\nav.js"></script>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500|Satisfy" rel="stylesheet">
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/imgs/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/imgs/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/imgs/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/src/imgs/favicons/manifest.json">
+    <link rel="shortcut icon" href="/src/imgs/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/src/imgs/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#789f73">
   </head>
   <body>
-    <nav class="navBar">
+    <nav class="navBar" id="navBar">
       <a href="./index.html" class="home"><img src="src/imgs/logo.svg" alt="logo"></a>
-      <a href="./about.html">About</a>
-      <a href="./contact.html">Contact</a>
-      <a href="./products.html">Products</a>
+      <a href="./about.html" class="navtext">About</a>
+      <a href="./contact.html" class="navtext">Contact</a>
+      <a href="./products.html" class="navtext">Products</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
-    <div id="header">
-      
-    </div>
     <div id="slider"></div>
   </body>
 </html>
