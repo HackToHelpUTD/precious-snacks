@@ -5,7 +5,7 @@ body {
   margin: 0; 
   padding: 0; 
   font-family: 'Raleway', sans-serif;
-  font-size: 20px; 
+  font-size: 25px; 
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 
 .flex {
   display: flex;
+  flex-flow: row wrap; 
 }
 
 
@@ -27,9 +28,14 @@ body {
   margin: 0; 
 }
 
+#missionState {
+  padding: 0 150px; 
+}
+
 #missionState h2 {
   padding-top: 5%; 
-  font-family: 'Statisfy', cursive; 
+  font-family: 'Satisfy', cursive; 
+  font-size: 50px; 
 }
 
 #missionState p {
@@ -38,14 +44,14 @@ body {
 
 #whoContent { 
   padding-top: 75px; 
-  padding-right: 150px; 
-  padding-left: 100px; 
+  padding-right: 50px; 
+  padding-left: 50px; 
   flex: 1; 
 }
 
 #whoContent h3 {
   font-family: 'Satisfy', cursive; 
-  font-size: 25px; 
+  font-size: 35px; 
 }
 
 #whoPic {
@@ -53,31 +59,85 @@ body {
   padding-top: 100px; 
   padding-right: 100px;
   flex: 1; 
+  text-align: center; 
 }
 #whoPic img {
-  width: 350px; 
+  width: 400px; 
 }
 #Purpose {
   padding-top: 50px; 
-  padding-left: 150px; 
-  padding-right: 100px; 
+  padding: 50px; 
   flex: 1; 
 }
 
 #Purpose h3 {
   font-family: 'Satisfy', cursive; 
-  font-size: 25px; 
+  font-size: 35px; 
 }
 
 #purposePic {
-
   padding: 50px; 
   padding-top: 100px; 
   padding-left: 100px; 
   flex: 1; 
+  text-align: center; 
 }
 
 
 #purposePic img{
-  width: 300px; 
+  width: 350px; 
+}
+
+@media (max-width: 932px) {
+  
+  body {
+    font-size: 20px; 
+  }
+  
+  #WhoAreWe {
+    flex-flow:column-reverse; 
+  }
+
+ #whoContent {
+   padding: 100px 30px; 
+   padding-top: 0px;
+ }
+
+  #whoPic {
+    padding: 0; 
+  }
+
+  #Purp {
+    flex-flow: column; 
+  }
+
+  #Purpose {
+    padding-left: 50px; 
+  }
+
+  #purposePic {
+    padding: 0 0px; 
+  }
+
+}
+
+@media (max-width: 515px) {
+
+  #missionState {
+    padding: 30px;
+    padding-bottom: 0px;  
+  }
+
+  #missionState h2 {
+    font-size: 40px; 
+  }
+
+  #purposePic img{
+    width: 250px; 
+  }
+
+  #whoPic img {
+    width: 250px; 
+  }
+
 }
