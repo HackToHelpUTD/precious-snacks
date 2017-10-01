@@ -4,6 +4,7 @@ body {
   width: 100%;
   margin: 0; 
   padding: 0; 
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -17,17 +18,33 @@ body {
   height: 40px; 
   width: 100%; 
   text-align: left; 
-  font: raleyway; 
+  font-family: 'Raleway', sans-serif;
   padding: 0; 
   margin: 0; 
 }
 
+#missionState h2 {
+  font-family: 'Statisfy', cursive; 
+}
+
+#missionState p {
+  padding-bottom: 5%; 
+}
 #whoAreWe {
   height: 40%; 
   width: 40%; 
 }
 
+#whoAreWe h3{
+  font-family: 'Satisfy', cursive; 
+}
+
 #Purpose {
   height: 40%; 
   width: 40%; 
+  padding-left: 
+}
+
+#Purpose h3 {
+  font-family: 'Satisfy', cursive; 
 }
