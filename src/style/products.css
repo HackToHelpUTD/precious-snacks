@@ -77,17 +77,17 @@ header h3 {
   border-top: 2px dotted #000000;
 }
 
-footer {
+.cs {
   text-align: center;
 }
 
-footer h3 {
+.cs h3 {
   font-family: "Satisfy", cursive;
   font-size: 20px;
   padding: 5px;
 }
 
-footer h2 {
+.cs h2 {
   font-family: "Satisfy", cursive;
   font-size: 40px;
   padding: 10px;
