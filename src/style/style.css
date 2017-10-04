@@ -73,6 +73,10 @@ body {
 }
 
 @media (max-width: 600px) {
+  a.logo {
+    padding-bottom: 5px;
+  }
+
   .navBar .logo {
     float: none;
     display: inline-block;
@@ -89,12 +93,14 @@ body {
   .navBar a.icon {
     font-size: 25px;
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-right: 7px;
   }
-}
 
-@media (max-width: 600px) {
+  .navBar.responsive .logo .logo-image {
+    margin-left: -30px;
+  }
+
   .navBar.responsive {
     position: relative;
   }
@@ -105,8 +111,7 @@ body {
     top: 0;
   }
 
-  .navBar.responsive a.navtext
-  /*.navBar.responsive a.home.logo-img*/ {
+  .navBar.responsive a.navtext {
     float: none;
     display: block;
     text-align: left;
