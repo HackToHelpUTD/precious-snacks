@@ -117,3 +117,7 @@ body {
     text-align: center;
   }
 }
+
+.upper {
+  text-transform: uppercase;
+}

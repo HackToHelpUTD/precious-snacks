@@ -5,7 +5,38 @@ body {
     font-size: 17px;
 }
 
-.contact-us input {
-    border-radius: 5px;
+.contact-us .input-text {
+    outline: none;
+    border: none;
+    border-bottom: solid #000;
+    border-width: 1.5px;
+    margin-top: 15px;
+}
 
+.contact-us .input-text.input-small {
+    width: 300px;
+    height: 20px;
+}
+
+.contact-us textarea.input-text.input-large {
+    width: 605px;
+    height: 100px;
+    resize: none; 
+}
+
+.contact-us .input-submit {
+    display: inline-block;
+    margin: 10px auto;
+    height: 100px;
+    width: 100px;
+}
+
+.intro .title {
+    margin: 35px 0 15px 0;
+    font-size: 70px;
+}
+
+.intro .sub-title {
+    margin: 0 0 25px 0;
+    font-size: 25px;
 }

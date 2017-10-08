@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Contact Us | Precious Snacks</title>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500|Satisfy" rel="stylesheet">
+    <!-- Google Fonts
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500|Satisfy" rel="stylesheet">-->
     <!-- Nav Bar CSS, Add Custom CSS After -->
     <link rel="stylesheet" href="src/style/style.css">
     <!--navbar JS-->
@@ -25,15 +25,19 @@
   </nav>
   <body>
     <div class="intro">
-      <h1>Contact Us!</h1>
-      <p>Want to place an order or have a question?</p>
+      <h1 class="title">Reach Out!</h1>
+      <div class="sub-title">
+        <p>Intrested? Have questions?</p>
+        <p>Fill out the form below!</p>
+      </div>
     </div>
     <form action="" class="contact-us">
-      <input type="text" name="firstName" placeholder="First Name">
-      <input type="text" name="lastName" placeholder="Last Name">
-      <input type="email" name="email" placeholder="Email">
-      <input type="text" name="additional comments/message" placeholder="Message">
-      <input type="submit" value="Submit">
+      <input class="input-text input-small" type="text" name="firstName" placeholder="First Name">
+      <input class="input-text input-small" type="text" name="lastName" placeholder="Last Name">
+      <input class="input-text input-small" type="email" name="email" placeholder="Email">
+      <input class="input-text input-small" type="text" name="phoneNumber" placeholder="Contact Number">
+      <textarea class="input-text input-large " type="text" placeholder="Message"></textarea>
+      <input class="input-submit" type="submit" value="Send it in!">
     </form>
   </body>
 </html>
