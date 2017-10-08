@@ -13,21 +13,28 @@ body {
     margin-top: 15px;
 }
 
-.contact-us .input-text.input-small {
-    width: 300px;
+.contact-us .input-text {
+    display: block;
+    margin: 20px auto;
+    width: 550px;
     height: 20px;
 }
 
-.contact-us textarea.input-text.input-large {
-    width: 605px;
+.contact-us textarea.input-text {
+    display: block;
+    margin: 0 auto;
     height: 100px;
     resize: none; 
 }
 
+.contact-us textarea.input-text:placeholder {
+    font-family: "Raleway" open-sans; 
+}
+
 .contact-us .input-submit {
-    display: inline-block;
+    display: block;
     margin: 10px auto;
-    height: 100px;
+    height: 50px;
     width: 100px;
 }
 
@@ -40,3 +47,18 @@ body {
     margin: 0 0 25px 0;
     font-size: 25px;
 }
+
+@media (max-width:414px) {
+    .intro .title {
+        font-size: 50px;
+    }
+
+    .intro .sub-title {
+        font-size: 15px;
+    }
+
+    .contact-us .input-text {
+        width: 250px;
+    }
+}
+  
