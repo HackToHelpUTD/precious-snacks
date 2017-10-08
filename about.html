@@ -3,37 +3,71 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="src/style/about.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500|Satisfy" rel="stylesheet">
     <!-- Nav Bar CSS, Add Custom CSS After -->
     <link rel="stylesheet" href="src/style/style.css">
     <!--navbar JS-->
     <script src="src\js\nav.js"></script> 
+
     <title>About Us</title>
   </head>
   <nav class="navBar" id="navBar">
-    <a href="./index.html" class="home"><img src="src/imgs/logo.svg" alt="logo"></a>
-    <a href="./about.html" class="navtext">About</a>
+    <a href="./index.html" class="logo">
+      <img src="src/imgs/logo.svg" alt="logo" class="logo-image">
+      <p class="logo-text">Precious Snacks</p>
+    </a>
     <a href="./contact.html" class="navtext">Contact</a>
     <a href="./products.html" class="navtext">Products</a>
+    <a href="./about.html" class="navtext active">About</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </nav>
   <body>
-    <div id="topbar">
-      <h6>About Us</h6>
-    </div>
     <div id="missionState">
       <h2>Our Mission Statement</h2>
-      <p>insert mission statement here</p>
+      <p>Precious Snacks works to enhance
+         the quality of life for families 
+         that don't have the certain skillsets 
+         to obtain job oppurtunities and help 
+         people reach their full potential through 
+         learning and the power of work.</p>
     </div>
-    <div id="whoAreWe">
-      <h3>Who Are We?</h3>
-      <p>Insert who they is here</p>
-    </div>
-    <div id="Purpose">
-      <h3>What is our Purpose?</h3>
-      <p>Insert what the purpose is here</p>
-    </div>
+    <div class="flex" id="WhoAreWe"> <!-- start first flex-->
+        <div id="whoContent">
+          <h3>Who Are We?</h3>
+          <p>We are a community that aspires to help other 
+            people in our community that needs helping. 
+            Some families in our community don't have the 
+            resources to further their careers financially, 
+            so we help them to run a side business that can 
+            help to insure an income. Our community strives 
+            to facilitate income influx and deficits with 
+            the US economy. Through Precious Snacks, we 
+            help our friends in society and help them to be 
+            more aware and involved in the economy.</p>
+        </div>
+        <div id="whoPic">
+          <img src="src/imgs/people_holding.svg" alt="people holding hands">
+        </div>
+    </div> <!-- end of first flex -->
+    <div class="flex" id="Purp">  <!-- start second flex -->
+      <div id="purposePic">
+          <img src="src/imgs/World_icon.svg.png" alt="world">
+        </div>
+      <div id="Purpose">
+        <h3>What is our Purpose?</h3>
+        <p>Some families in our community don't have the resources 
+          to further their careers financially, so we help them to 
+          run a side business that can help to insure an income. 
+          Our community strives to facilitate income influx and deficits 
+          with the US economy. Through Precious Snacks, we help 
+          our friends in society and help them to be more aware 
+          and involved in the economy.</p>
+      </div>
+
+    </div> <!-- end of second flex -->
+
+   
   </body>
 </html>

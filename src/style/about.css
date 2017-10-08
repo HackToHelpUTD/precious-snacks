@@ -1,9 +1,9 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
   margin: 0; 
   padding: 0; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px; 
 }
 
 body {
@@ -11,22 +11,131 @@ body {
   text-align: center; 
 }
 
+.flex {
+  display: flex;
+  flex-flow: row wrap; 
+}
+
+
 #topbar h6 {
-  background: #F44336;
   height: 40px; 
   width: 100%; 
   text-align: left; 
-  font: raleyway; /*waiting for pull update*/
+  font-family: 'Raleway', sans-serif;
   padding: 0; 
   margin: 0; 
 }
 
-#whoAreWe {
-  height: 40%; 
-  width: 40%; 
+#missionState {
+  padding: 0 150px; 
 }
 
+#missionState h2 {
+  padding-top: 5%; 
+  font-family: 'Satisfy', cursive; 
+  font-size: 50px; 
+}
+
+#missionState p {
+  padding-bottom: 5%; 
+}
+
+#whoContent { 
+  padding-top: 75px; 
+  padding-right: 50px; 
+  padding-left: 50px; 
+  flex: 1; 
+}
+
+#whoContent h3 {
+  font-family: 'Satisfy', cursive; 
+  font-size: 35px; 
+}
+
+#whoPic {
+  padding: 50px; 
+  padding-top: 100px; 
+  padding-right: 100px;
+  flex: 1; 
+  text-align: center; 
+}
+#whoPic img {
+  width: 400px; 
+}
 #Purpose {
-  height: 40%; 
-  width: 40%; 
+  padding-top: 50px; 
+  padding: 50px; 
+  flex: 1; 
+}
+
+#Purpose h3 {
+  font-family: 'Satisfy', cursive; 
+  font-size: 35px; 
+}
+
+#purposePic {
+  padding: 50px; 
+  padding-top: 100px; 
+  padding-left: 100px; 
+  flex: 1; 
+  text-align: center; 
+}
+
+
+#purposePic img{
+  width: 350px; 
+}
+
+@media (max-width: 932px) {
+  
+  body {
+    font-size: 20px; 
+  }
+  
+  #WhoAreWe {
+    flex-flow:column-reverse; 
+  }
+
+ #whoContent {
+   padding: 100px 30px; 
+   padding-top: 0px;
+ }
+
+  #whoPic {
+    padding: 0; 
+  }
+
+  #Purp {
+    flex-flow: column; 
+  }
+
+  #Purpose {
+    padding-left: 50px; 
+  }
+
+  #purposePic {
+    padding: 0 0px; 
+  }
+
+}
+
+@media (max-width: 515px) {
+
+  #missionState {
+    padding: 30px;
+    padding-bottom: 0px;  
+  }
+
+  #missionState h2 {
+    font-size: 40px; 
+  }
+
+  #purposePic img{
+    width: 250px; 
+  }
+
+  #whoPic img {
+    width: 250px; 
+  }
+
 }
