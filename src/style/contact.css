@@ -37,9 +37,22 @@ body {
 
 .contact-us .input-submit {
     display: block;
-    margin: 10px auto;
-    height: 50px;
-    width: 100px;
+    margin: 25px auto;
+    height: 30px;
+    width: 80px;
+    box-shadow: none;
+    background: #f44336;
+    border: none;
+    border-width: 1px;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Raleway" open-sans;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.contact-us .input-submit:hover {
+    background: #cc372c;
 }
 
 .intro .title {
