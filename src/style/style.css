@@ -128,6 +128,7 @@ body {
   font-weight: 200;
   color: #ffffff;
   font-size: 15px;
+  margin-top: 15px;
 }
 
 .footer a {
@@ -136,8 +137,9 @@ body {
   font-weight: 500;
 }
 
-.flex {
+.footer.flex {
   display: flex;
+  flex-flow: row;
 }
 
 .flex div {
@@ -154,22 +156,26 @@ body {
   text-align: left;
 }
 
+.not-footer {
+  min-height: 100%;
+}
+
 @media (max-width: 590px) {
   .footer {
     font-size: 13px;
   }
 
-  .flex div {
+  .footer.flex div {
     padding: 15px 9px;
   }
 }
 
 @media (max-width: 515px) {
-  .footer {
+  .footer.flex {
     font-size: 10px;
   }
 
-  .flex div {
+  .footer.flex div {
     padding: 20px 9px;
   }
 }
@@ -179,7 +185,7 @@ body {
     font-size: 7px;
   }
 
-  .flex div {
+  .footer.flex div {
     padding: 20px 9px;
   }
 }

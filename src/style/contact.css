@@ -1,0 +1,81 @@
+body {
+    background: #FFF;
+    text-align: center;
+    font-family: "Raleway" open-sans; 
+    font-size: 17px;
+}
+
+.contact-us .input-text {
+    outline: none;
+    border: none;
+    border-bottom: solid #000;
+    border-width: 1px;
+    margin-top: 15px;
+}
+
+.contact-us .input-text:focus {
+    border-width: 1.5px;
+}
+
+.contact-us .input-text {
+    display: block;
+    margin: 20px auto;
+    width: 550px;
+    height: 20px;
+}
+
+.contact-us textarea.input-text {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    resize: none; 
+}
+
+.contact-us textarea.input-text:placeholder {
+    font-family: "Raleway" open-sans; 
+}
+
+.contact-us .input-submit {
+    display: block;
+    margin: 25px auto;
+    height: 30px;
+    width: 80px;
+    box-shadow: none;
+    background: #f44336;
+    border: none;
+    border-width: 1px;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Raleway" open-sans;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.contact-us .input-submit:hover {
+    background: #cc372c;
+}
+
+.intro .title {
+    margin: 35px 0 15px 0;
+    font-size: 70px;
+}
+
+.intro .sub-title {
+    margin: 0 0 25px 0;
+    font-size: 25px;
+}
+
+@media (max-width:414px) {
+    .intro .title {
+        font-size: 50px;
+    }
+
+    .intro .sub-title {
+        font-size: 15px;
+    }
+
+    .contact-us .input-text {
+        width: 250px;
+    }
+}
+  

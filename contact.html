@@ -2,28 +2,46 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
-
+    <title>Contact Us | Precious Snacks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500|Satisfy" rel="stylesheet">
     <!-- Nav Bar CSS, Add Custom CSS After -->
     <link rel="stylesheet" href="src/style/style.css">
     <!--navbar JS-->
     <script src="src\js\nav.js"></script> 
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="src/style/contact.css">
   </head>
-  <nav class="navBar" id="navBar">
-    <a href="./index.html" class="logo">
-      <img src="src/imgs/logo.svg" alt="logo" class="logo-image">
-      <p class="logo-text">Precious Snacks</p>
-    </a>
-    <a href="./contact.html" class="navtext active">Contact</a>
-    <a href="./products.html" class="navtext">Products</a>
-    <a href="./about.html" class="navtext">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-  </nav>
   <body>
-    
-  <div class="footer flex">
+    <nav class="navBar" id="navBar">
+      <a href="./index.html" class="logo">
+        <img src="src/imgs/logo.svg" alt="logo" class="logo-image">
+        <p class="logo-text">Precious Snacks</p>
+      </a>
+      <a href="./contact.html" class="navtext active">Contact</a>
+      <a href="./products.html" class="navtext">Products</a>
+      <a href="./about.html" class="navtext">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <div class="not-footer">
+      <div class="intro">
+        <h1 class="title">Reach Out!</h1>
+        <div class="sub-title">
+          <p>Interested? Have questions?</p>
+          <p>Fill out the form below!</p>
+        </div>
+      </div>
+      <form action="" class="contact-us">
+        <input class="input-text input-small" type="text" name="firstName" placeholder="First Name">
+        <input class="input-text input-small" type="text" name="lastName" placeholder="Last Name">
+        <input class="input-text input-small" type="email" name="email" placeholder="Email">
+        <input class="input-text input-small" type="text" name="phoneNumber" placeholder="Contact Number">
+        <textarea class="input-text input-large " type="text" placeholder="Message"></textarea>
+        <input class="input-submit" type="submit" value="Send">
+      </form>
+    </div>
+    <div class="footer flex">
       <div class="left">
         <p>&copy; Copyright 2017 Precious Snacks</p>
       </div>

@@ -122,7 +122,7 @@ header h3 {
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
-  top: 125%;
+  top: 85%;
   left: 50%;
   margin-left: -60px;
 
