@@ -9,8 +9,12 @@ body {
     outline: none;
     border: none;
     border-bottom: solid #000;
-    border-width: 1.5px;
+    border-width: 1px;
     margin-top: 15px;
+}
+
+.contact-us .input-text:focus {
+    border-width: 1.5px;
 }
 
 .contact-us .input-text {
